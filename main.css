@@ -1,17 +1,114 @@
-html{
-   background-image:  
-   background-attachment: fixed;
-   background-repeat: ;
-   background-position: 
+/*
+Home Page / Template Page
+Capstone: ......
+Author:  Conner Duncan
+Date:  01.17.18
+
+
+Filename: index.html
+*/
+
+html {
+    /* background-image: ; */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-divClass{
+head {
+    /* width:  */
+}
+
+body {
+    display: block;
+    width: 80%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    background-color: ivory;
+    /*  PLACEHOLDER  */
+    border: 5px solid gray;
+    box-shadow: 5px 0 gray;
+    box-shadow: -5px 0 gray;
+}
+
+nav {
+    width: 100%;
+    display: block;
+    margin-bottom: 5px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+/*
+flex note
+    flex: flex-grow flex-shrink flex-basis|auto|initial|inherit;
+*/
+
+nav ul li {
+    display: flex;
+    flex: 1 1 auto;
+    width: auto;
+    text-align: center;
+    color: black;
+    background-color: gray;
+    /*  */
+}
+
+h1 {
+    color: darkcyan;
+}
+
+p {
+    margin-left: 10%;
+    padding: 5px;
+}
+
+main {
+    margin-left: 10%;
+    padding: 5px;
+    width: 90%;
+}
+
+aside {
+    margin-right: 10%;
+    ;
+    padding: 5px;
+    width: 20%;
+}
+
+article {
+    margin-left: 10%;
+    padding: 5px;
+    width: 65%;
+}
+
+footer {
+    width: 100%;
+    background-color: lightgray;
+    border-top: 2px black solid;
+    /*potential error*/
+}
+
+
+/* divClass */
+
+{
     box-sizing: ;
     width: ;
     height: ;
     padding: ;
 }
 
-borderImage{
-border: width border-style color;
+
+/* borderImage */
+
+{
+    border: width border-style color;
 }
