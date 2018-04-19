@@ -1,12 +1,14 @@
 /*
-Home Page / Template Page
-Capstone: ......
+main css / Template css
 Author:  Conner Duncan
 Date:  01.17.18
 
 
-Filename: index.html
+Filename: main.css
 */
+
+
+/*NOTE: COLORS ARE CURRENT RANDOM and arbitrary*/
 
 html {
     /* background-image: ; */
@@ -15,22 +17,10 @@ html {
     background-position: center;
 }
 
-head {
-    /* width:  */
-}
-
-body {
+header {
     display: block;
-    width: 80%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-    background-color: ivory;
-    /*  PLACEHOLDER  */
-    border: 5px solid gray;
-    box-shadow: 5px 0 gray;
-    box-shadow: -5px 0 gray;
+    width: 100%;
+    background-color: ghostwhite;
 }
 
 nav {
@@ -45,20 +35,36 @@ nav ul {
     width: 100%;
 }
 
-
-/*
-flex note
-    flex: flex-grow flex-shrink flex-basis|auto|initial|inherit;
-*/
-
 nav ul li {
     display: flex;
     flex: 1 1 auto;
     width: auto;
     text-align: center;
     color: black;
+    background-color: darkgray;
+}
+
+nav ul li:hover {
     background-color: gray;
-    /*  */
+    color: white;
+}
+
+nav ul a:visited {}
+
+nav ul a:link {}
+
+body {
+    display: block;
+    width: 80%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    background-color: ivory;
+    /*  PLACEHOLDER  */
+    border: 5px solid gray;
+    box-shadow: 5px 0 5px gray;
+    box-shadow: -5px 0 5px gray;
 }
 
 h1 {
@@ -66,24 +72,27 @@ h1 {
 }
 
 p {
+    display: block;
     margin-left: 10%;
     padding: 5px;
 }
 
 main {
+    display: block;
     margin-left: 10%;
     padding: 5px;
     width: 90%;
 }
 
 aside {
+    display: block;
     margin-right: 10%;
-    ;
     padding: 5px;
     width: 20%;
 }
 
 article {
+    display: block;
     margin-left: 10%;
     padding: 5px;
     width: 65%;
@@ -94,21 +103,23 @@ footer {
     background-color: lightgray;
     border-top: 2px black solid;
     /*potential error*/
+    display: block;
+    text-align: center;
+    padding: 2px;
+    margin-bottom: 10px;
 }
 
 
 /* divClass */
 
-{
-    box-sizing: ;
+
+/* box-sizing: ;
     width: ;
     height: ;
-    padding: ;
-}
+    padding: ; */
 
 
 /* borderImage */
 
-{
-    border: width border-style color;
-}
+
+/* border: width border-style color; */
