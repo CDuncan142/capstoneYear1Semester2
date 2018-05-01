@@ -3,77 +3,121 @@
 
 <head>
     <!--
-         Home Page / Template Page
+         Frequently asked questions page
          Capstone: ......
          Author:  Conner Duncan
          Date:  01.17.18
 
 
-         Filename: index.html
+         Filename: faq.html
     -->
     <meta charset="utf-8">
-    <title>Contact info</title>
-    <link rel="stylesheet" href="main.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Frequently Asked Questions</title>
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
     <header>
-        <nav>
-            <ul>
-                <a href="index.html">
-                    <li>What we do</li>
-                </a>
-                <a href="faq.html">
-                    <li>Contact us</li>
-                </a>
-                <a href="donations.html">
-                    <li>DONATIONS</li>
-                </a>
-                <a href="startFundraiser.html">
-                    <li>Support us on fundraiser</li>
-                </a>
-                <a href="merch.html">
-                    <li>Stay involved</li>
-                </a>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+            <!-- ul brank logo -->
+            <a class="navbar-brand" href="#">Graphite</a>
+
+            <!-- links -->
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">What we do</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="faq.html">Contact us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="donations.html">Donations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="startFundraiser.html">Support us on fundraiser</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="merch.html">Stay involved</a>
+                </li>
             </ul>
-            <!-- in case we need a seperate list -->
-            <ul class=""></ul>
         </nav>
     </header>
-    <h1></h1>
-    <p></p>
-    <main>
-        <aside>
-        </aside>
-        <article id="">
-            <h1>Frequently asked questions</h1>
-            <img src="" alt="">
-            <p>Here are where some common questions that could you could have.</p>
-            <h2>What caused ous to create this organization?</h2>
-            <p>The struggle in recent years, teacher walking out and going on strike</p>
-            <h3>How do you plan on expanding your company?</h3>
-            <p>We plan on expanding by people donations and our fundraiser</p>
-            <h4>How could we apply?</h4>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
 
-        </article>
-    </main>
-    <div id="">
-        <img src="" alt="">
+    <div class="container">
+        <h1 class="mt-5" style="text-align: center;">Frequently Asked questions</h1>
+        <hr class="q-50"><br>
+        <hr class="w-25">
+
+        <!-- Question wrapper 1 -->
+        <div id="question-wrapper" class="mb-5">
+
+            <!-- question/card 1 start -->
+            <div class="card">
+                <div class="card-header">
+                    <a class="card-link" data-toggle="collapse" href="#answerOne">What caused us to create this organization?</a>
+                </div>
+                <div data-parent="#question-wrapper" class="collapse show" id="answerOne">
+                    <div class="card-body">
+                        The struggle in recent years, teacher walking out and going on strike
+                    </div>
+                </div>
+            </div>
+            <!-- question/card 1 end -->
+            <!-- question/card 2 start -->
+            <div class="card">
+                <div class="card-header">
+                    <a class="card-link" data-toggle="collapse" href="#answerTwo">How do you plan on expanding your company?</a>
+                </div>
+                <div data-parent="#question-wrapper" class="collapse" id="answerTwo">
+                    <div class="card-body">We plan on expanding by people donations and our fundraiser</div>
+                </div>
+            </div>
+            <!-- question/card 2 end -->
+
+            <!-- question/card 3 start -->
+            <div class="card">
+                <div class="card-header">
+                    <a class="card-link" data-toggle="collapse" href="#answerThree">How can I help</a>
+                </div>
+                <div data-parent="#question-wrapper" class="collapse" id="answerThree">
+                    <div class="card-body"></div>
+                </div>
+            </div>
+            <!-- question/card 3 end -->
+
+        </div>
+        <!-- <img src="" alt=""> -->
+        <!-- <p>Here are where some common questions that could you could have.</p>
+        <h2>What caused ous to create this organization?</h2>
+        <p>The struggle in recent years, teacher walking out and going on strike</p>
+        <h3>How do you plan on expanding your company?</h3>
+        <p>We plan on expanding by people donations and our fundraiser</p>
+        <h4>How could we apply?</h4> -->
     </div>
-    <script src="code.js"></script>
-</body>
-<footer>
-    <div class="contact">
+
+    <!-- footer start -->
+    <div class="jumbotron jumbotron-fluid text-center" id="footer">
         <a href="tel:(609) 555-7873">Give us a call</a>
         <a href="mailto:gall@example.com/school">Email us @</a>
-        <!-- TODO: Deside set up for any content not to be the main focus, unsure if there is an element for that -->
+        <!-- TODO: Decide set up for any content not to be the main focus, unsure if there is an element for that -->
+        Copyright (c) 2017 Copyright Holder All Rights Reserved.
     </div>
-    Copyright (c) 2017 Copyright Holder All Rights Reserved.
-</footer>
+    <!-- footer end -->
+
+    <!-- Script area start -->
+    <script src="jquery.slim.min.js"></script>
+    <!-- <script src="jquery-3.3.1.min.js"></script> -->
+    <script src="popper.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="code.js"></script>
+    <!-- script area end -->
+
+</body>
 
 </html>
