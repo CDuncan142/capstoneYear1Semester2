@@ -27,6 +27,12 @@ html {
     /* box-sizing: border-box; */
 }
 
+#banner-text {
+    color: #12BABA;
+    font-size: 4rem;
+    font-family: fantasy;
+}
+
 
 /* header {
     display: block;
@@ -145,3 +151,10 @@ h1 {
 
 
 /* border: width border-style color; */
+
+#banner {
+    background-image: url(banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
