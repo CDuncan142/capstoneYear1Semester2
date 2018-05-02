@@ -118,16 +118,15 @@ h1 {
 } */
 
 #footer {
-    /* width: 100%; */
+    width: 100%;
     /* background-color: lightgray; */
     border-top: 2px lightgray solid;
     /*potential error*/
     /* display: block; */
     /* text-align: center; */
     /* padding: 5px; */
-    /* position: absolute; */
-    /* bottom: 0; */
-    /* margin-bottom: 10px; */
+    position: absolute;
+    bottom: 0;
     margin-bottom: 0;
 }
 
