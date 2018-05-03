@@ -7,15 +7,6 @@ Date:  01.17.18
 Filename: main.css
 */
 
-
-/*NOTE: COLORS ARE CURRENT RANDOM and arbitrary*/
-
-
-/* property note
-    add border boxes
-
-*/
-
 html {
     /* background-image: ; */
     /* display: block;
@@ -28,25 +19,11 @@ html {
 }
 /* 
 
-header {
-    display: block;
-    width: 100%;
-    background-color: ghostwhite;
-}  */
-
-
-/* nav {
-    width: 100%;
-    display: block;
-    margin-bottom: 5px;
-} */
-
-
-/* nav ul {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-} */
+#banner-text {
+    color: #12BABA;
+    font-size: 4rem;
+    font-family: fantasy;
+}
 
 
 /* nav ul li {
@@ -86,49 +63,10 @@ body {
     color: darkcyan;
 } */
 
-
-/* p {
-    display: block;
-    margin-left: 10%;
-    padding: 5px;
-} */
-
-
-/* main {
-    display: block;
-    margin-left: 10%;
-    padding: 5px;
-    width: 90%;
-} */
-
-
-/* aside {
-    display: block;
-    margin-right: 10%;
-    padding: 5px;
-    width: 20%;
-} */
-
-
-/* article {
-    display: block;
-    margin-left: 10%;
-    padding: 5px;
-    width: 65%;
-} */
-
 #footer {
-    width: 100%;
-    /* background-color: lightgray; */
-    /* border-top: 2px lightgray solid; */
-    /*potential error*/
-    /* display: block; */
-    /* text-align: center; */
-    /* padding: 5px; */
-    /* position: absolute; */
-    /* bottom: 0; */
-    /* margin-bottom: 10px; */
-    /* margin-bottom: 0; */
+    border-top: 2px lightgray solid;
+    /* margin-top: auto; */
+    margin-top: 50px;
 }
 
 
@@ -144,4 +82,11 @@ body {
 /* borderImage */
 
 
-/* border: width border-style color;
+/* border: width border-style color; */
+
+#banner {
+    background-image: url(banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
