@@ -64,7 +64,8 @@ h1 {
 
 #footer {
     border-top: 2px lightgray solid;
-    margin-top: auto;
+    /* margin-top: auto; */
+    margin-top: 50px;
 }
 
 
