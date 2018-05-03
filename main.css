@@ -7,18 +7,6 @@ Date:  01.17.18
 Filename: main.css
 */
 
-html {
-    /* background-image: ; */
-    /* display: block;
-    width: 100%;
-    height: 100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center; */
-    /* box-sizing: border-box; */
-}
-/* 
-
 #banner-text {
     color: #12BABA;
     font-size: 4rem;
@@ -44,24 +32,9 @@ nav ul a:visited {}
 
 nav ul a:link {} */
 
-
-/* 
-body {
-    display: block;
-    width: 80%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-    background-color: ivory;
-    \/*  PLACEHOLDER  *\/
-    box-shadow: 5px 0 5px gray, -5px 0 5px gray;
-} 
-*/
-
-/* h1 {
+h1 {
     color: darkcyan;
-} */
+}
 
 #footer {
     border-top: 2px lightgray solid;
@@ -69,24 +42,15 @@ body {
     margin-top: 50px;
 }
 
-
-/* divClass */
-
-
-/* box-sizing: ;
-    width: ;
-    height: ;
-    padding: ; */
-
-
-/* borderImage */
-
-
-/* border: width border-style color; */
-
 #banner {
     background-image: url(banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+@media only screen and (max-width: 500px) {
+    small {
+        display: none;
+    }
 }
