@@ -49,6 +49,11 @@ h1 {
     background-position: center;
 }
 
+h1{
+    background-color: rgba(250, 180, 15, 0.50);
+    color: white;
+    
+}
 @media only screen and (max-width: 500px) {
     small {
         display: none;
