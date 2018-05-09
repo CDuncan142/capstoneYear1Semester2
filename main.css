@@ -36,6 +36,10 @@ h1 {
     color: darkcyan;
 }
 
+#banner-text {
+    text-shadow: 0 0 10px black;
+}
+
 #footer {
     border-top: 2px lightgray solid;
     /* margin-top: auto; */
@@ -49,11 +53,19 @@ h1 {
     background-position: center;
 }
 
-h1{
-    background-color: rgba(250, 180, 15, 0.50);
-    color: white;
-    
+h1 {
+    /* background-color: rgba(250, 180, 15, 0.50); */
+    /* color: white; */
 }
+
+#silhouette {
+    background-image: url(silhouette.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 300px;
+}
+
 @media only screen and (max-width: 500px) {
     small {
         display: none;
