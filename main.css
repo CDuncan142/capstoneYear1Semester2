@@ -61,14 +61,14 @@ h1 {
 }
 
 #banner {
-    background-image: url(banner.jpg);
+    background-image: url(images/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 #merchBanner {
-    background-image: url(bookcase.jpg);
+    background-image: url(images/bookcase.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -80,7 +80,7 @@ h1 {
 }
 
 #silhouette {
-    background-image: url(silhouette.jpg);
+    background-image: url(images/silhouette.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -88,7 +88,7 @@ h1 {
 }
 
 #books {
-    background-image: url(bookBanner.jpg);
+    background-image: url(images/bookBanner.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
