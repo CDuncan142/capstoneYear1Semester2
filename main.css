@@ -13,6 +13,14 @@ Filename: main.css
     font-family: fantasy;
 }
 
+.merch .card-title {
+    float: left;
+}
+
+.merch .card-text {
+    float: right;
+}
+
 
 /* nav ul li {
     display: flex;
@@ -36,6 +44,12 @@ h1 {
     color: darkcyan;
 }
 
+.merch h2 {
+    text-align: center;
+    color: gray;
+    margin-bottom: 10px;
+}
+
 #banner-text {
     text-shadow: 0 0 10px black;
 }
@@ -53,6 +67,13 @@ h1 {
     background-position: center;
 }
 
+#merchBanner {
+    background-image: url(bookcase.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 h1 {
     /* background-color: rgba(250, 180, 15, 0.50); */
     /* color: white; */
@@ -60,6 +81,14 @@ h1 {
 
 #silhouette {
     background-image: url(silhouette.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 300px;
+}
+
+#books {
+    background-image: url(bookBanner.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
