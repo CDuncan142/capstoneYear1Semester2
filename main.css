@@ -96,19 +96,19 @@ h1 {
 }
 /* donation page image*/
 #cardImage1{
-    background-image: url(second-man.jpg);
+    background-image: url(images/second-man.jpg);
     background-position: center;
     background-size: cover;
     height: 300px;
 }
 #cardImage2{
-    background-image: url(portrait.jpg);
+    background-image: url(images/portrait.jpg);
     background-position: center;
     background-size: cover;
     height: 300px;
 }
 #cardImage3{
-    background-image: url(example-picture-donations.jpg);
+    background-image: url(images/example-picture-donations.jpg);
     background-position: center;
     background-size: cover;
     height: 300px;
