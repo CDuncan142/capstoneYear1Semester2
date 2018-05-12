@@ -100,13 +100,18 @@
 
         </div>
 
-        <form class="container form" style="" action="">
-            <div class="form-group form-inline">
-                <input type="text" name="" id="" placeholder="name" class="w-50">
-                <input type="text" name="" id="" placeholder="Email" class="w-50">
-                <textarea name="" id="" cols="300" rows="10"></textarea>
+        <form class="form" id="contactForm" action="">
+            <div class="form-row">
+                <div class="col-md form-group">
+                    <label for="nameInput">Name:</label>
+                    <input type="text" name="" id="nameInput" placeholder="First Last" class="form-control">
+                </div>
+                <div class="col-md form-group">
+                    <label for="emailInput">E-mail:</label>
+                    <input type="text" name="" id="emailInput" placeholder="email@example.com" class="form-control">
+                </div>
             </div>
-
+            <textarea class="form-control" placeholder="Type away..."></textarea>
         </form>
     </div>
 
