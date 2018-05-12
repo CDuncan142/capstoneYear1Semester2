@@ -94,6 +94,25 @@ h1 {
     background-size: cover;
     padding-top: 300px;
 }
+/* donation page image*/
+#cardImage1{
+    background-image: url(second-man.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+#cardImage2{
+    background-image: url(portrait.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+#cardImage3{
+    background-image: url(example-picture-donations.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
 
 @media only screen and (max-width: 500px) {
     small {
