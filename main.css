@@ -7,57 +7,13 @@ Date:  01.17.18
 Filename: main.css
 */
 
+
+/* banner */
+
 #banner-text {
     color: #12BABA;
     font-size: 4rem;
     font-family: fantasy;
-}
-
-.merch .card-title {
-    float: left;
-}
-
-.merch .card-text {
-    float: right;
-}
-
-
-/* nav ul li {
-    display: flex;
-    flex: 1 1 auto;
-    width: auto;
-    text-align: center;
-    color: black;
-    background-color: darkgray;
-}
-
-nav ul li:hover {
-    background-color: gray;
-    color: white;
-}
-
-nav ul a:visited {}
-
-nav ul a:link {} */
-
-h1 {
-    color: darkcyan;
-}
-
-.merch h2 {
-    text-align: center;
-    color: gray;
-    margin-bottom: 10px;
-}
-
-#banner-text {
-    text-shadow: 0 0 10px black;
-}
-
-#footer {
-    border-top: 2px lightgray solid;
-    /* margin-top: auto; */
-    margin-top: 50px;
 }
 
 #banner {
@@ -74,10 +30,73 @@ h1 {
     background-position: center;
 }
 
-h1 {
-    /* background-color: rgba(250, 180, 15, 0.50); */
-    /* color: white; */
+#banner-text {
+    text-shadow: 0 0 10px black;
 }
+
+
+/* page styles */
+
+h1 {
+    color: darkcyan;
+}
+
+#footer {
+    border-top: 2px lightgray solid;
+    /* margin-top: auto; */
+    margin-top: 50px;
+}
+
+button {
+    background-color: #f8f9fa;
+}
+
+
+/* Merch */
+
+
+/*excludes banner*/
+
+.merch .card-title {
+    float: left;
+}
+
+.merch .card-text {
+    float: right;
+}
+
+.merch h2 {
+    text-align: center;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+
+/* navigation bar */
+
+
+/*
+ nav ul li {
+    display: flex;
+    flex: 1 1 auto;
+    width: auto;
+    text-align: center;
+    color: black;
+    background-color: darkgray;
+}
+
+nav ul li:hover {
+    background-color: gray;
+    color: white;
+}
+
+nav ul a:visited {}
+
+nav ul a:link {} 
+    */
+
+
+/* fundraisers */
 
 #silhouette {
     background-image: url(images/silhouette.jpg);
@@ -94,20 +113,25 @@ h1 {
     background-size: cover;
     padding-top: 300px;
 }
+
+
 /* donation page image*/
-#cardImage1{
+
+#cardImage1 {
     background-image: url(images/second-man.jpg);
     background-position: center;
     background-size: cover;
     height: 300px;
 }
-#cardImage2{
+
+#cardImage2 {
     background-image: url(images/portrait.jpg);
     background-position: center;
     background-size: cover;
     height: 300px;
 }
-#cardImage3{
+
+#cardImage3 {
     background-image: url(images/example-picture-donations.jpg);
     background-position: center;
     background-size: cover;
