@@ -100,7 +100,7 @@ nav ul a:link {}
 
 #silhouette {
     background-image: url(images/silhouette.jpg);
-    background-position: top;
+    background-position: top right;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 300px;
@@ -117,10 +117,15 @@ nav ul a:link {}
 
 /* donation page image*/
 
+.donation .jumbotron {
+    margin-bottom: 100px;
+}
+
 #cardImage1 {
     background-image: url(images/second-man.jpg);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     height: 300px;
     border-radius: 10px 10px 0px 0px;
 }
@@ -129,6 +134,7 @@ nav ul a:link {}
     background-image: url(images/portrait.jpg);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     height: 300px;
     border-radius: 10px 10px 0px 0px;
 }
@@ -137,16 +143,83 @@ nav ul a:link {}
     background-image: url(images/example-picture-donations.jpg);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     height: 300px;
-      border-radius: 10px 10px 0px 0px;
-}
-.card{
-  border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
 }
 
+.card {
+    border-radius: 10px;
+}
+
+#cash {
+    background-image: url("images/rainbowPencils.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#cash h1 {
+    color: rgb(245, 245, 245);
+    font-size: 4rem;
+}
+
+#material {
+    background-image: url("images/noteBook.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#material h1 {
+    font-size: 4rem;
+}
+
+#volunteering {
+    background-image: url("images/schoolHall.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#volunteering h1 {
+    font-size: 4rem;
+    color: rgb(7, 173, 209);
+    text-shadow: 1px 1px 1px gray;
+}
+
+#merch {
+    background-image: url("images/tissuePaper.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#merch h1 {
+    font-size: 4rem;
+    color: indigo;
+    text-shadow: 1px 1px 1px black;
+}
+
+#social {
+    background-image: url("images/bookcase.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#social h1 {
+    font-size: 8rem;
+    /* color: slateblue; */
+    color: #12BABA;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
 
 
-@media only screen and (max-width: 500px) {
+/* Media  */
+
+.donation # @media only screen and (max-width: 500px) {
     small {
         display: none;
     }
