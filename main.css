@@ -203,7 +203,7 @@ nav ul a:link {}
 
 #social {
     background-image: url("images/bookcase.jpg");
-    background-position: center;
+    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -219,7 +219,7 @@ nav ul a:link {}
 
 /* Media  */
 
-.donation # @media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
     small {
         display: none;
     }
