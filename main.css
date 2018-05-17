@@ -15,6 +15,9 @@ Filename: main.css
     font-size: 4rem;
     font-family: fantasy;
 }
+  #banner-text small{
+    font-size: 2rem;
+  }
 
 #banner {
     background-image: url(images/banner.jpg);
@@ -32,6 +35,13 @@ Filename: main.css
 
 #banner-text {
     text-shadow: 0 0 10px black;
+}
+
+#aboutBanner {
+    background-image: url(images/rightSideBookStack.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 
@@ -105,6 +115,12 @@ nav ul a:link {}
     background-size: cover;
     padding-top: 300px;
 }
+@media only screen and (max-width: 550px) {
+  #silhouette {
+    background-image: url(images/silhouetteMobile.jpg);
+    background-position: center left;
+  }
+}
 
 #books {
     background-image: url(images/bookBanner.jpg);
@@ -112,6 +128,13 @@ nav ul a:link {}
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 300px;
+}
+
+@media only screen and (max-width: 800px) {
+    #books {
+      background-image: url(images/bookBannerMobile.jpg);
+      background-position: left;
+    }
 }
 
 
@@ -122,7 +145,7 @@ nav ul a:link {}
 }
 
 #cardImage1 {
-    background-image: url(images/second-man.jpg);
+    background-image: url(images/replacement-guy.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -148,8 +171,19 @@ nav ul a:link {}
     border-radius: 10px 10px 0px 0px;
 }
 
+@media only screen and (max-width: 991px) {
+    #cardImage1, #cardImage2, #cardImage3 {
+      background-position: top;
+      height: 550px;
+    }
+}
+
 .card {
     border-radius: 10px;
+}
+
+h1.donation {
+  font-size: 4rem;
 }
 
 #cash {
@@ -161,7 +195,7 @@ nav ul a:link {}
 
 #cash h1 {
     color: rgb(245, 245, 245);
-    font-size: 4rem;
+    /* font-size: 4rem; */
 }
 
 #material {
@@ -172,7 +206,7 @@ nav ul a:link {}
 }
 
 #material h1 {
-    font-size: 4rem;
+    /* font-size: 4rem; */
 }
 
 #volunteering {
@@ -183,7 +217,7 @@ nav ul a:link {}
 }
 
 #volunteering h1 {
-    font-size: 4rem;
+    /* font-size: 4rem; */
     color: rgb(7, 173, 209);
     text-shadow: 1px 1px 1px gray;
 }
@@ -196,7 +230,7 @@ nav ul a:link {}
 }
 
 #merch h1 {
-    font-size: 4rem;
+    /* font-size: 4rem; */
     color: indigo;
     text-shadow: 1px 1px 1px black;
 }
@@ -215,6 +249,57 @@ nav ul a:link {}
     text-shadow: 1px 1px 1px black;
     text-align: center;
 }
+
+@media only screen and (max-width: 410px) {
+  #cardImage1, #cardImage2, #cardImage3 {
+    /* background-position: top; */
+    height: 100px;
+  }
+  h1.donation {
+    font-size: 2rem;
+  }
+}
+/* about us */
+
+#teamImage1 {
+  background-image: url(images/conner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+#teamImage2 {
+  background-image: url(images/skyler.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+#teamImage3 {
+  background-image: url(images/david.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+#tissuePaper {
+    background-image: url(images/tissuePaper.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: cursive;
+}
+
+
+
+
+
 
 
 /* Media  */
