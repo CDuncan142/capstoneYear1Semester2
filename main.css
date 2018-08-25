@@ -222,7 +222,7 @@ h1.donation {
     text-shadow: 1px 1px 1px gray;
 }
 
-#merch {
+#merch { /*NOTE: not merch page. Same goes for next*/
     background-image: url("images/tissuePaper.jpg");
     background-position: center;
     background-size: cover;
